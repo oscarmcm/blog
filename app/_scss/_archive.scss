@@ -1,0 +1,81 @@
+/* Archive */
+h1.archive {
+  margin-bottom: 0px;
+}
+
+h2.month {
+  width: 100%;
+  font: bold 13px/1 "Helvetica Neue",helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+#archive-list li:last-child {
+  margin-bottom: 0;
+}
+
+#archive-list a {
+  display: block;
+  font: bold 17px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
+  color: #333;
+}
+
+#archive-list .dates {
+  float: right;
+  position: relative;
+  top: 1px;
+  font: 300 17px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
+  color: #bbb;
+}
+
+#archive-list li a:hover,#archive-list li:hover .dates {
+  color: #5694f1;
+}
+
+#post-meta img.avatar {
+  height: 36px;
+  width: 36px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 3px;
+  margin-right: 20px;
+  box-shadow: 0 0 0 3px #fff, 0 0 0 4px #eee;
+}
+
+#post-list.archive.readmore h3{
+
+    font: 400 20px "Helvetica Neue", Helvetica,Arial,sans-serif;
+    margin-bottom: 30px;
+}
+
+#post-list.archive.readmore a{
+  font: 400 16px/1.6 "Helvetica Neue",helvetica,Arial,sans-serif;
+  color: #5694f1;
+}
+
+#post-list.archive.readmore a:hover{
+  opacity: 0.8;
+}
+
+#post-list.archive.readmore .dates{
+  font: 300 16px/1.6 "Helvetica Neue",helvetica,Arial,sans-serif;
+}
+#sharing a.facebook {
+  background: #4361b3;
+}
+#sharing a.twitter {
+  background: #4fafed;
+}
+
+#sharing a {
+  font-size: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  margin-left: 2px;
+}
