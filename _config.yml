@@ -1,0 +1,59 @@
+name: The oscar_mcm Blog
+description: Blogging about my programmer life
+meta_description: "oscarmcm.xyz | Blog"
+
+aboutPage: true
+
+markdown: kramdown
+highlighter: pygments
+
+paginate: 20
+baseurl: /
+domain_name: 'http://yourblog-domain.com'
+google_analytics: 'UA-XXXXXXXX-X'
+disqus: true
+disqus_shortname: 'oscarmcmblog'
+
+
+# Details for the RSS feed generator
+url:            'http://blog.oscarmcm.xyz'
+author:         'Oscar Cortez'
+authorTwitter:  'oscar_mcm'
+
+permalink:      pretty
+
+# use for the rake file
+post:
+  template: _post-template.txt
+  extension: markdown
+editor: vim
+git:
+  branch: gh-pages
+
+# use for the jekyll assets pipeline reborn
+asset_pipeline:
+  bundle: true
+  compress: true
+  output_path: assets
+  display_path: assets
+  gzip: true
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
