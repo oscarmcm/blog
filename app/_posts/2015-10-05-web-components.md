@@ -30,7 +30,7 @@ Ya hay algunas librerias basadas en este estandar disponibles, algunas listas y 
 Ahora te pregunto: ¿has visto alguna vez en acción un Web Component? Lo más seguro es que sí, aunque quizá no fueras consciente de ello…
 
 Visita cualquier página con un reproductor de vídeo HTML5 ([como esta](http://vimeo.com/blog/post:606)) e inspecciona la etiqueta {% highlight html %}
-<video> {% endhighlight %} con las Herramientas para Desarrolladores de Chrome. Activa “Show user agent shadow DOM” y, ¡sorpresa!, verás cómo aparecen multitud de nuevos elementos que estaban ocultos inicialmente (en el Shadow DOM).
+<video width="320" height="240" controls><source src="pollito.mp4" type="video/mp4"></video> {% endhighlight %} con las Herramientas para Desarrolladores de Chrome. Activa “Show user agent shadow DOM” y, ¡sorpresa!, verás cómo aparecen multitud de nuevos elementos que estaban ocultos inicialmente (en el Shadow DOM).
 
 A continuacion un ejemplo de 'Web Components'
 
