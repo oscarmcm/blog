@@ -3,34 +3,8 @@
   <channel>
     <title>The oscar_mcm Blog</title>
     <description>Blogging about my programmer life</description>
-    <link>http://oscarmcm.com/blog/</link>
-    <atom:link href="http://oscarmcm.com/blog//feed.xml" rel="self" type="application/rss+xml" />
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        
-        
-          <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Fri, 02 Oct 2015 10:02:38 -0600</pubDate>
-        <link>http://oscarmcm.com/blog//jekyll/update/2015/10/02/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://oscarmcm.com/blog//jekyll/update/2015/10/02/welcome-to-jekyll/</guid>
-      </item>
-    
-      <item>
-        <title>Yo Jekyll!</title>
-        
-        
-          <description>&lt;h1 id=&quot;allo-allo&quot;&gt;‘Allo, ‘Allo!&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Fri, 02 Oct 2015 00:00:00 -0600</pubDate>
-        <link>http://oscarmcm.com/blog//jekyll/update/2015/10/02/yo-jekyllrb/</link>
-        <guid isPermaLink="true">http://oscarmcm.com/blog//jekyll/update/2015/10/02/yo-jekyllrb/</guid>
-      </item>
+    <link>http://blog.oscarmcm.xyz</link>
+    <atom:link href="http://blog.oscarmcm.xyz/feed.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
