@@ -12,7 +12,8 @@ url:            'http://blog.oscarmcm.xyz'
 author:         'Oscar Cortez'
 authorTwitter:  'oscar_mcm'
 
-baseurl: 
+#remember add this without '/' at the final
+baseurl: http://oscarmcm.github.io/blog
 
 # Grunt handles images and assets.
 exclude: ['img', 'css', 'js', 'fonts',
