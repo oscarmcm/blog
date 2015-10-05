@@ -34,8 +34,8 @@ git:
 asset_pipeline:
   bundle: true
   compress: true
-  output_path: /blog/assets
-  display_path: assets
+  output_path: assets
+  display_path: /blog/assets
   gzip: true
 
 defaults:
