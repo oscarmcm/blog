@@ -27,6 +27,9 @@ Ya hay algunas librerias basadas en este estandar disponibles, algunas listas y 
 * [X-Tags - Mozilla](http://x-tags.org/)
 
 
+Cabe señalar que estas librerias estan basadas en las tecnologias antes mencionadas. Actualmente puedes hacer uso de 'Web Components' sin depender de estas.
+
+
 Ahora te pregunto: ¿has visto alguna vez en acción un Web Component? Lo más seguro es que sí, aunque quizá no fueras consciente de ello…
 
 Visita cualquier página con un reproductor de vídeo HTML5 ([como esta](http://vimeo.com/blog/post:606)) e inspecciona la etiqueta {% highlight html %}
@@ -64,17 +67,14 @@ A continuacion un ejemplo de 'Web Components'
 </html>
 {% endhighlight %}
 
-Gracias a 'Web Components' podemos evitarnos todo eso, de una forma mas simple y limpia 
+Gracias a 'Web Components' podemos evitarnos todo eso y hacerlo de una forma mas simple y limpia.
 
 {% highlight html %}
 <google-map latitude="37.77493" longitude="-122.41942"></google-map>
 {% endhighlight %}
 
-Gracias a los custom elements, la comunidad puede crear sus propios elementos, de forma rápida y colaborativa.
 
-Cabe señalar que estas librerias estan basadas en las tecnologias antes mencionadas. Actualmente puedes hacer uso de 'Web Components' sin depender de estas.
-
-Con la llegada de 'Web Components', la velocidad sin precedentes a la que podemos desarrollar, probar y mejorar las características será un gran beneficio para la experiencia del usuario. Podremos tener una web mas estandarizada y por supuesto semanticamente. Imaginemos elementos que son capaces de compartir entre diferentes CMS (Wordpress, Drupal, Ghost). _Construye una sola vez, ejecutalo donde quieras_. Por ahora 'Web Components' me parece una de las mejores apuestas para la web, respaldado por todos los frameworks basados en el estandar. Hasta ahora esto solo es un punto de partida hacia el futuro de la web.
+Con la llegada de 'Web Components' la comunidad puede crear sus propios elementos, de forma rápida y colaborativa, la velocidad sin precedentes a la que podemos desarrollar, probar y mejorar las características será un gran beneficio para la experiencia del usuario. Podremos tener una web mas estandarizada y por supuesto semanticamente. Imaginemos elementos que son capaces de compartir entre diferentes CMS (Wordpress, Drupal, Ghost). _Construye una sola vez, ejecutalo donde quieras_. Por ahora 'Web Components' me parece una de las mejores apuestas para la web, respaldado por todos los frameworks basados en el estandar. Hasta ahora esto solo es un punto de partida hacia el futuro de la web.
 
 Antes de de terminar les comparto un importante video llamado ['Are Web Components Ready Yet?'](https://www.youtube.com/watch?v=oDtpXhMQeew) y pueden pasar [por aca](http://jonrimmer.github.io/are-we-componentized-yet/) para ver el progreso de 'Web Components' hacia su estandarizacion.
 
