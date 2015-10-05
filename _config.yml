@@ -5,10 +5,10 @@
 
 name: The oscar_mcm Blog
 description: Blogging about my programmer life
-meta_description: "oscarmcm.com | Blog"
+meta_description: "oscarmcm.xyz | Blog"
 
 # Details for the RSS feed generator
-url:            'http://oscarmcm.com/blog/'
+url:            'http://blog.oscarmcm.xyz'
 author:         'Oscar Cortez'
 authorTwitter:  'oscar_mcm'
 
