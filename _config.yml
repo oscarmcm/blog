@@ -3,14 +3,14 @@
 # 2. config.build.yml
 # 3. config.yml
 
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: The oscar_mcm Blog
+description: Blogging about my programmer life
+meta_description: "oscarmcm.com | Blog"
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
-author:         'Your Name'
-authorTwitter:  'YourTwitterUsername'
+url:            'http://oscarmcm.com/blog/'
+author:         'Oscar Cortez'
+authorTwitter:  'oscar_mcm'
 
 baseurl: 
 
@@ -31,8 +31,8 @@ paginate_path: 'page:num'
 
 domain_name: 'http://yourblog-domain.com'
 google_analytics: 'UA-XXXXXXXX-X'
-disqus: false
-disqus_shortname: 'your-disqus-shortname'
+disqus: true
+disqus_shortname: 'oscarmcmblog'
 
 
 # Markdown library
