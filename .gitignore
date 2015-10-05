@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+_site/
+.sass-cache/
+.DS_Store
+=======
 # .gitignore for Yeoman-Jekyll projects
 
 # Ignore hidden folders #
@@ -42,3 +47,4 @@ node_modules
 .ruby-version
 .ruby-gemset
 .rvmrc
+>>>>>>> 7d8c4b3d9d61d7c19663b19216baab3b500cba30

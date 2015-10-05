@@ -1,5 +1,10 @@
-source "http://rubygems.org"
-
-gem 'jekyll', '~> 2.3.0'
+source 'https://rubygems.org'
+gem 'jekyll'
+gem 'jekyll-sitemap'
 gem 'kramdown'
-gem 'sass', '~> 3.4.3'
+gem 'pygments.rb'
+gem 'jekyll-watch'
+gem 'jekyll-compose'
+gem 'jgd'
+gem 'packr'
+gem 'japr'

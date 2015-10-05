@@ -1,46 +1,42 @@
-# Jekyll configuration precedence:
-# 1. Gruntfile task
-# 2. config.build.yml
-# 3. config.yml
-
 name: The oscar_mcm Blog
 description: Blogging about my programmer life
 meta_description: "oscarmcm.xyz | Blog"
 
-# Details for the RSS feed generator
-url:            'http://blog.oscarmcm.xyz'
-author:         'Oscar Cortez'
-authorTwitter:  'oscar_mcm'
-
-#remember add this without '/' at the final
-baseurl: http://oscarmcm.github.io/blog
-
-# Grunt handles images and assets.
-exclude: ['img', 'css', 'js', 'fonts',
-          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
-
-include: ['.htaccess']
-
-# _config.build.yml sets future and show_drafts to false on `grunt build`
-future: true
-show_drafts: true
-
 aboutPage: true
-permalink: pretty
-paginate: 20
-paginate_path: 'page:num'
 
+markdown: kramdown
+highlighter: pygments
+
+paginate: 20
+baseurl: /
 domain_name: 'http://yourblog-domain.com'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus: true
 disqus_shortname: 'oscarmcmblog'
 
 
-# Markdown library
-markdown: kramdown
+# Details for the RSS feed generator
+url:            'http://blog.oscarmcm.xyz'
+author:         'Oscar Cortez'
+authorTwitter:  'oscar_mcm'
 
-pygments: true
-highlighter: pygments
+permalink:      pretty
+
+# use for the rake file
+post:
+  template: _post-template.txt
+  extension: markdown
+editor: vim
+git:
+  branch: gh-pages
+
+# use for the jekyll assets pipeline reborn
+asset_pipeline:
+  bundle: true
+  compress: true
+  output_path: assets
+  display_path: assets
+  gzip: true
 
 defaults:
     -
@@ -61,4 +57,3 @@ defaults:
             type: drafts
         values:
             layout: post
-
