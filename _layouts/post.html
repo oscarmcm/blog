@@ -40,7 +40,11 @@ archive: true
         <h3>Read more</h3>
         {% for post in site.posts %}
             <li>
-                <a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">{{ post.title }}<aside class="dates">{{ post.date | date:"%b %d" }}</aside></a>
+            {% if post.new_url %}
+              <a href="{{ post.new_url }}" target="_blank">{{ post.title }}<aside class="dates">{{ post.date | date:"%b %d" }}</aside></a>
+            {% else %}
+              <a href="{{ site.baseurl }}/{{ post.url | remove_first: '/' }}">{{ post.title }}<aside class="dates">{{ post.date | date:"%b %d" }}</aside></a>
+            {% endif %}
             </li>
         {% endfor %}
     </ul>
