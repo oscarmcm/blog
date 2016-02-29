@@ -3,7 +3,7 @@ layout: post
 title:  "Una mirada a los Web Components"
 date:   2015-10-05 16:02:38
 categories: web-components
-description: Web Components es un nuevo estandar de la web que permitira dividir nuestros proyectos en elementos mas pequeños, reusables y encapsulados.
+description: El nuevo estandar de la web que permitira dividir nuestros proyectos en elementos mas pequeños, reusables y encapsulados.
 ---
 
 Hace un par de semanas atras hablaba con un amigo desarrollador y fundador de [Kakao Media](http://www.kakaomedia.com) ([Hola Erick!](http://www.twitter.com/eveevans)) sobre el estado de la web y los futuros proyectos, curiosamente tocamos el tema de Web Components y antes de comenzar a hablar algunas cosas que debatiamos y exteriorizar mis reflexiones... ¿que es Web Components?
