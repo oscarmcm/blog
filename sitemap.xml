@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://oscarmcm.com/blog/python/2016/05/17/bootstraped-virtualenvs/</loc>
+    <lastmod>2016-05-17T06:07:56-06:00</lastmod>
+  </url>
+  <url>
     <loc>http://oscarmcm.com/blog/default/2016/02/29/kronoscode-year-3/</loc>
     <lastmod>2016-02-29T08:47:36-06:00</lastmod>
   </url>
