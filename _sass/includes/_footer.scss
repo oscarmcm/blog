@@ -6,3 +6,14 @@
   color: lighten($text-color, 30%);
   font-size: 0.9em;
 }
+// Footer heart
+@keyframes fontbulger {
+  0% { font-size: 15px; }
+  30% { font-size: 20px; }
+  100% { font-size: 17px; }
+}
+.heart {
+  height: 30px;
+  color: #E56A6C;
+  animation: fontbulger 2s infinite;
+}

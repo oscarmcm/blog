@@ -14,9 +14,9 @@ theme:
   header_text: >
      <p>Hi folks, this is my new blog, here I try to write some ideas about development, entrepreneurship and my day to day as a software developer.</p>
      <p>I love solving problems using a text editor and a compiler.</p>
-  header_text_feature_image: sample_feature_img_2.png
+  # header_text_feature_image:
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+    <p class="heart">♥</p>
 
   # Icons
   rss: true

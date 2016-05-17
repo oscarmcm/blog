@@ -30,7 +30,7 @@ layout: default
         </p>
       </header>
       <div class="excerpt">
-        {% if post.new_url %}
+        {% if post.new_url or post.description %}
         <p>{{ post.description }}</p>
         {% else %}
         {{ post.excerpt }}
